@@ -1,19 +1,32 @@
+################################################################################
+#-------------------------------------------------------------------------------
+# Name:        module1
+# Purpose:
+#
+# Author:      Rushi Daulatkar
+#
+# Created:     20/08/2023
+# Copyright:   (c) Rushi Daulatkar 2023
+# Licence:     <your licence>
+#-------------------------------------------------------------------------------
+
 #Hello Coder
-#Hope You Have Done With The Challenge 
+#Hope You Have Done With The Challenge
 #Here Is The Solution
 # This Code Was Created In (PyCharm IDE)
 
 first = input("Enter first Number :")               #variable declaration and input of First Number
-opeartor = input("Enter operator (+,-,*,/,%) :")    #variable declaration and input of operation to be perform
+operator = input("Enter operator (+,-,*,/,%) :")    #variable declaration and input of operation to be perform
 second = input("Enter second Number :")             #variable declaration and input of second Number
 
-first = int(first)                                  #type conversion
+first = int(first)
+operator = str(operator)                            #type conversion
 second = int(second)                                #type conversion
 
 if operator == "+" :                                 #if loop
      print(first + second)
 
-elif operator == "-" :                               #elif loop  
+elif operator == "-" :                               #elif loop
      print(first - second)
 
 elif operator == "*" :                               #elif loop
@@ -26,8 +39,8 @@ elif operator == "%" :                               #elif loop
      print(first % second)
 
 else :                                               #else loop for any error that may occur
-    print(INVALID OPERATION)
+    print("INVALID OPERATION")
 
 
 #The end of Program and Rise of Calculator
-
+#Keep Learning
